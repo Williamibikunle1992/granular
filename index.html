@@ -7,17 +7,23 @@
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
   <!-- Stylesheets -->
+  <!--this removes browser styles  -->
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>
-      <img src="images/logo.png" alt="granular app logo" />
-    </h1>
-    <a href="index.html">home</a>
-    <a href="about.html">pricing</a>
-    <a href="#">
+  <header class="scroll-effect">
+    <nav>
+
+      <h1>
+        <img src="images/logo.png" alt="granular app logo" />
+      </h1>
+      <a href="index.html">home</a>
+      <a href="about.html">pricing</a>
+    </nav>
+
+    <a class="arrow" href="#">
       <img src="images/arrow.png" alt="down arrow">
     </a>
 
@@ -53,7 +59,36 @@
 
   <section class="scroll-effect" id="filter5">
     <h3>timezero</h3>
+
   </section>
+
+  <section class="subscribe">
+    <h2>suscribe to our newsletter for updates</h2>
+
+    <!-- Begin Mailchimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="https://gmail.us20.list-manage.com/subscribe/post?u=c79ca020ea88ddb0eb373b46a&amp;id=937a423f30" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c79ca020ea88ddb0eb373b46a_937a423f30" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+
+  </section>
+
+  <footer>
+    <small>&copy; 2019 granular inc</small>
+    <a href="https://twitter.com/granularapp">twitter</a>
+    <a href="https://instagram.com/granularapp>">instragram</a>
+  </footer>
+
+
 </body>
 
 
