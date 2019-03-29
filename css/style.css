@@ -152,3 +152,24 @@ footer a {
   padding: 10px 0;
   text-decoration: none;
 }
+
+/* mobile styles */
+@media screen and (max-width: 760px) {
+  .scroll-effect {
+    background-attachment: scroll;
+  }
+
+  nav {
+    position: statctic;
+    padding-top: 50px;
+  }
+
+  .suscribe, .highlight, .feature {
+    padding: 20px;
+  }
+
+  .button, .email {
+    width: 100%;
+  }
+}
+}
